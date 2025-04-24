@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    min-height: 150px;
+    min-width: 150px;
+    padding: 5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+
+}
+.child{
+    color: black;
+    background-color: cadetblue;
+}
+.parent{
+    background-color: brown;
+}
+.grandparent{
+    background-color: rgb(139, 87, 9);
+}
